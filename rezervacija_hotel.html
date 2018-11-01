@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Rezervacija_Hotel</title>
+        <link rel="stylesheet" href="rezervacija_hotel_css.css">
+    </head>
+    
+    <body>
+        
+        <div class="container">
+         <div class="naslov-logo">
+                <h1 class="naslov">Booking<span class="naslov-2">.com</span></h1>
+         </div>
+       <br><br>
+        <div class="border">
+        <h4>Are you traveling for work?</h4>
+        <form>
+                <label>
+                        <input type="radio" name="traveling" value="yes"/>
+                        Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="traveling" value="no"/>
+                        No
+       </form>
+ 
+           <br/>
+            
+                <br>
+            </div>
+<br><br>
+<div class="border" id="plava">
+            <div class="control-group">
+                <h4 class="provide">Please provide your Name and Surname</h4>
+                    <label class="control-label" for="FirstName"></label>
+                    
+                    <div class="controls">
+                        <input class="input small" id="FirstName" name="FirstName" placeholder="First name" type="text" value=""/>
+                        <input class="input small" id="LastName" name="LastName" placeholder="Last name" type="text" value=""/>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+            <br><br>
+<div class="border" id="plava">
+    <div class="control-group">
+                <h4>E-mail address<span class="zvezda">*</span></h4>
+         <input type="email" placeholder="example@mail.com"></input>
+         </div>
+         <br><br>
+         </div>
+         <br><br>
+
+<div class="border" id="plava">
+    <div class="control-group">        
+         <h4>Confirm Email address<span class="zvezda1">*</span></h4>
+         <input type="email" placeholder="example@mail.com"></input>
+         </div>
+         <br><br>
+         </div>
+         <br><br>
+<div class="border" id="plava">
+    <div class="control-group">
+         <h4>Who are you booking for?</h4>
+         <input type="radio" name="gender" value="male"> I'm the main guest<br>
+         <input type="radio" name="gender" value="female"> I'm booking for someone else<br>
+        </div>
+        <br><br>
+        </div>
+        <br><br>
+        <div class="border" id="plava">
+        <div class="control-group">
+            <h3>Standard Single Room</h3>
+            <h4 class="guest">Full Guest Name</h4>
+            <input type="text" placeholder=""></input><br><br>
+            <input type="checkbox" name="Breakfast" value="breakfast">Breakfast</input><br>
+            <input type="checkbox" name="I'm intersted" value="I'm interested" check>I'm interested requesting an airport shuttle</input><br>
+            <input type="checkbox" name="I'm interested" value="I'm interested" check>I'm interested in renting a car</input>
+        </div>
+        <br><br>
+        </div>
+        <br><br>
+<div class="border" id="plava">
+    <div class="control-group">
+          <h3>Traveling to Cuba</h3>
+          <h4 class="reason">Reason for Travel*</h4>
+          <p>I certify that all travelers in this booking satisfy criteria for a general travel license to Cuba for the following activity:</p>
+          <form>
+                <select name="ime">
+        <option value="Family visits">Family visits</option>
+        <option value="Offical government business">Offical government business</option>
+        <option value="Journalistic activity">Journalistic activity</option>
+        <option value="Professional research and professional meetings">Professional research and professional meetings</option>
+        <option value="Education travel authorized by a US organization">Education travel authorized by a US organization</option>
+        <option value="Religious">Religious</option>
+        <option value="Public performances, clinics, workshops, athletic and other competitions or exhibitions">Public performances, clinics, workshops, athletic and other competitions or exhibitions</option>
+        <option value="Support for the Cuban people">Support for the Cuban people</option>
+        <option value="Humanitarian projects">Humanitarian projects</option>
+        <option value="Private foundations, research, or educational institutes">Private foundations, research, or educational institutes</option>
+                </select>
+             </form>
+             </div>
+             <br><br>
+             </div>
+             <br><br>
+<div class="border" id="plava">
+    <div class="control-group">
+             <h4>Guest 1</h4>
+             <div class="control-group">
+                    <label class="control-label" for="FirstName"></label>
+                    
+                    <div class="controls">
+                        <input class="input small" id="FirstName,LastName" name="FirstNameLastName" placeholder="First name, Last name" type="text" value=""/>
+                        <input class="input small" id="AddressCityStateZipCodeCountry" name="AddressCityStateZipCodeCountry" placeholder="Address, City, State, Zip, Code, Country" type="text" value=""/>
+                    </div>
+                </div>
+                </div>
+                <br><br>
+                </div>
+                <br><br>
+<div class="border" id="plava">
+    <div class="control-group">
+            <h3>Ask a Question</h3>
+            <h4><b>Special Requests</b></h4>
+            <p>Please write your requests in English or Spanish.<br/>
+                    Special requests cannot be guaranteed – but the property will do its best to meet your needs.<br/>
+                    You can always make a special request after your booking is complete! 
+                    </p>
+                    <textarea name="special request"></textarea><br/><br>
+                         <label>
+                                <input type="radio" name="room" value="I'd like a quiet room"/>I'd like a quiet room
+                        </label>
+                </div>
+                <br><br>
+                </div>
+                <br><br>
+<div class="border" id="plava">
+     <div class="control-group">
+            <h3 class="address">Enter Your Address</h3>
+            <h4>Address<span class="zvezda1">*</span></h4>
+         <input type="Address" placeholder="Address"></input>
+            <h4>City<span class="zvezda1">*</span></h4>
+        <input type="City" placeholder="City"></input>
+            <h4>Zip Code</h4>
+        <input type="ZipCode" placeholder="Zip Code"></input>
+            <h4>Country/Region<span class="zvezda1">*</span></h4>
+            <select name="ime">
+                <option value="Argentina">Argentina</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Egypt">Egypt</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="Italy">Italy</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Latvia">Latvia</option>
+                <option value="Macedonia">Macedonia</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Oman">Oman</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Russia">Russia</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Wallis and Futna">Wallis and Futna</option>
+                <option value="Yemen">Yemen</option>
+                <option value="Zambia">Zambia</option>
+            </select>
+            <h4>Telephone (mobile number preferred) <span class="zvezda1">*</span></h4>
+            <input type="number"/><br/><br>
+             <input type="radio" name="Yes" value="Yes"/>Yes, I'll keep my confirmation handy in the app! Send me<br/> a link by text message to the mobile number above.
+            </div>
+            <br><br>
+            </div>
+            <br><br>
+ <div class="border" id="plava">
+    <div class="control-group">
+             <h3 class="complete">Complete Your Booking</h3>
+             <h4>Payment type<span class="zvezda1">*</span></h4>
+             <select name="ime">
+                 <option value="Diners Club">Diners Club</option>
+                 <option value="Discover">Discover</option>
+                 <option value="Visa">Visa</option>
+                 <option value="MasterCard">MasterCard</option>
+                 <option value="American Express">American Express</option>
+             </select>
+             <h4>Card number <span class="zvezda1">*</span></h4>
+             <input type="number"/>
+             <h4>Expiration date <span class="zvezda1">*</span></h4>
+             <input type="date"/>
+             <h4>CVC code <span class="zvezda1">*</span></h4>
+             <input type="number"/><br/><br>
+             <input type="radio" name="Get" value="Get"/>Get access to members-only deals, just like the millions of other email subscribers<br/>I agree with the <a href="https://secure.booking.com/bookcancel.html?aid=376363;label=booking-name-L%2AXf2U1sq4%2AGEkIwcLOALQS267777916051%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-294889295213%3Akwd-65526620%3Alp2807%3Ali%3Adec%3Adm;sid=2aec84daf2b9d357a6f8ca56ad0b4521;ap_available=1;checkin=2018-10-24;checkout=2018-11-01;general=124081405;hotel_id=2486334;is_group_search=0;persons=1;policygroup_room=2018-11-01%2C248633402%3A124081405%3A1%3AU3RhbmRhcmQgU2luZ2xlIFJvb20%3D%0A%3A248633402_124081405_0_1_0&;ap_early_charge=1;popupit=1">booking conditions</a>, <a href="https://secure.booking.com/general.html?aid=376363;label=booking-name-L%2AXf2U1sq4%2AGEkIwcLOALQS267777916051%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-294889295213%3Akwd-65526620%3Alp2807%3Ali%3Adec%3Adm;sid=2aec84daf2b9d357a6f8ca56ad0b4521;tmpl=docs/terms-and-conditions;popupit=1">general terms</a> and <a href="http://www.booking.com/general.html?aid=376363;label=booking-name-L%2AXf2U1sq4%2AGEkIwcLOALQS267777916051%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-294889295213%3Akwd-65526620%3Alp2807%3Ali%3Adec%3Adm;sid=2aec84daf2b9d357a6f8ca56ad0b4521;tmpl=docs/privacy-policy">privacy policy</a> by booking this room.<br/>
+             <br><br>
+             <button type="button">Check your booking</button>
+            <button type="submit">Complete booking</button>
+        </div>
+    </div>
+    <br><br>
+    </div>
+    <br><br> 
+         </body>
+</html>

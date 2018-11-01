@@ -1,0 +1,65 @@
+body{
+    background-color:#f4f5f5;
+}
+.container{
+    text-align:center;
+}
+
+.border{
+    border:black 5px solid;
+    outline:solid #0480f1cf;
+    background-color: #DCDCDC;
+}
+
+.naslov{
+    color: #FFFF00;
+    font-size:100px;
+
+}
+
+.naslov-2{
+    color: black;
+
+}
+
+.naslov-logo{
+    background:url("palm5.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 200px;
+}
+
+.provide{
+    color: #ff0000;
+
+}
+
+.zvezda{
+    color: #ff0000;
+
+
+}
+
+.zvezda1{
+    color: #ff0000;
+
+}
+
+.guest{
+    color: #ff0000;
+
+}
+
+.reason{
+    color: #ff0000;
+
+}
+
+.address{
+    color: #ff0000
+
+}
+
+.complete{
+    color: #ff0000;
+}
